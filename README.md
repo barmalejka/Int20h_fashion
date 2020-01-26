@@ -23,10 +23,10 @@ Model optimization were performed with next parameters:
 * scheduler step size = 5
 * gamma = 0.1 <br>
 
-Model were evaluated on average Intersection over Union score for segmantation and Recall for class prediction.<br>
+Model were evaluated on average Intersection over Union score for segmantation and Accuracy for class prediction.<br>
 We got next results:<br>
 **IoU:<br>**
-**Recall:<br>**
+**Accuracy:<br>**
 ## Further steps
 Implement adaptive learning rate (speedup) <br>
 Try "lighter" backbone model like MobileNet (speedup) <br> 
