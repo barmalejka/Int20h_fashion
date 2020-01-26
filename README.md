@@ -2,7 +2,7 @@
 
 ## Objective
 Create a model to solve [iMaterialist (Fashion) 2019 at FGVC6](https://www.kaggle.com/c/imaterialist-fashion-2019-FGVC6) competition.
-Task can be splitted to two subtasks:
+Task can be splitted into two subtasks:
 * outfit parts segmentation
 * outfit parts class prediction
 ## Modeling steps
