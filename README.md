@@ -22,6 +22,7 @@ Model optimization were performed with next parameters:
 * weight_decay = 0.0005
 * scheduler step size = 5
 * gamma = 0.1 <br>
+
 Model were evaluated on average Intersection over Union score for segmantation and recall for class prediction.<br>
 We got next results:<br>
 **IoU:<br>**
