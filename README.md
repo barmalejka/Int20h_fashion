@@ -11,10 +11,10 @@ Task can be splitted into two subtasks:
 * removed objects with classes that containen attributes
 * removed objects with area less then 10 000px<br>
 
-Class propostion within datasest were preserved<br><br>
+Class proportion within datasest were preserved<br><br>
 **Model training**<br>
 Model was trained used MaskRCNN neural network with RESNET50 backbone for 1 epoch on 20% of original dataset. This restrictions is dictated by lack of personal hardware and Kaggle GPU usage limitations. <br>
-For training images augmentation Random Horizontal Flip were used. <br>
+For train images augmentation Random Horizontal Flip were used. <br>
 Images were resized to 512x512 due to restrictions described. <br>
 Model optimization were performed with next parameters:
 * learning rate = 0.001
