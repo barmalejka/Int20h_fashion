@@ -6,11 +6,12 @@ Task can be splitted to two subtasks:
 * outfit parts segmentation
 * outfit parts class prediction
 ## Modeling steps
-**EDA**<br>
-**Test dataset preprocessing based on EDA:**
+**EDA**<br><br>
+**Test dataset preprocessing based on EDA:**<br>
 * removed objects with classes that containen attributes
 * removed objects with area less then 10 000px<br>
-Class propostion within dataset is preserved<br>
+
+Class propostion within datasest were preserved<br><br>
 **Model training**<br>
 Model was trained used MaskRCNN neural network with RESNET50 backbone for 1 epoch on 20% of original dataset. This restrictions is dictated by lack of personal hardware and Kaggle GPU usage limitations. <br>
 For training images augmentation Random Horizontal Flip were used. <br>
@@ -20,7 +21,7 @@ Model optimization were performed with next parameters:
 * momentum = 0.9
 * weight_decay = 0.0005
 * scheduler step size = 5
-* gamma = 0.1
+* gamma = 0.1 <br>
 Model were evaluated on average Intersection over Union score for segmantation and recall for class prediction.<br>
 We got next results:<br>
 **IoU:<br>**
