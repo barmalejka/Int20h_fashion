@@ -25,8 +25,7 @@ Model optimization were performed with next parameters:
 
 Model were evaluated on average Intersection over Union score for segmantation and Accuracy for class prediction.<br>
 We got next results:<br>
-**IoU:<br>**
-**Accuracy:<br>**
+**Accuracy: 0.55<br>**
 ## Further steps
 Implement adaptive learning rate (speedup) <br>
 Try "lighter" backbone model like MobileNet (speedup) <br> 
